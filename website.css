@@ -15,9 +15,9 @@
     src: url(Font/tnganb.ttf);
 }
 
-
+/* nav */
 .container-fluid {
-    background-color: orange;
+    background-color: darkorange;
 }
 .navbar-nav{
     font-family: 'anirm' !important;
@@ -25,13 +25,47 @@
     margin: auto;
 }
 .nav-item{
-    border-right: 1px solid;
+    border-right: 1px solid white;
 
 }
-/* Example font
- p {
+
+/* Carrousel */
+.carousel-item{
+    width: 80%;
+    max-height: 300px ;
+   overflow: hidden;
+
+  }
+  
+
+  /* fin carousel
+  Début button */
+
+
+ /* Font */
+h3 {
+    font-family: 'anirm'!important;
+}
+span {
+    font-family: 'tnganb'!important;
+    color: orange;
+}
+bold {
+    font-size: 0.5em;
+}
+.pill-title {
+    text-align: center;
+    margin-top: 0.6em;
+}
+.badge {
     font-family: 'anirb'!important;
-} */
+    text-decoration-color: darkorange;
+}
+.pill-center {
+    text-align: center;
+}
+/*  Fin font
+début card*/
 .card-gand {
     width: 18rem;
 }
