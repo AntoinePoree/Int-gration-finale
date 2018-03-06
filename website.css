@@ -1,7 +1,43 @@
+@font-face  {
+    font-family: 'anirb';
+    src: url(Font/anirb.ttf);
+}
+@font-face  {
+    font-family: 'anirm';
+    src: url(Font/anirm.ttf);
+}
+@font-face  {
+    font-family: 'partybusiness';
+    src: url(Font/partybusiness.ttf);
+}
+@font-face  {
+    font-family: 'tnganb';
+    src: url(Font/tnganb.ttf);
+}
 
-.img_logo {
+
+.container-fluid {
     background-color: orange;
 }
-.navbar-nav {
-    background-color: orange;
+.navbar-nav{
+    font-family: 'anirm' !important;
+    position: relative;
+    margin: auto;
+}
+.nav-item{
+    border-right: 1px solid;
+
+}
+/* Example font
+ p {
+    font-family: 'anirb'!important;
+} */
+.card-gand {
+    width: 18rem;
+}
+.card-ara {
+    width: 18rem;
+}
+.card-gim {
+    width: 18rem;
 }
