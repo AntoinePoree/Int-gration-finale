@@ -31,70 +31,128 @@
 
 /* Carrousel */
 .carousel-item{
-    position: absolute;
-    top: 0;
-    left: 0;
-    
+    position: relative;
     width: 100%;
-    height: 300px ;
-   
-
+    height: 200px;
+    margin: 0 auto;
+    display: block;
   }
-  
-
+  @media (min-width:992px){
+    .carousel-item{
+        height: 600px;
+    }    
+  }
+  @media (min-width:576px){
+    .carousel-item{
+        height: 400px;
+    }   
+  }
+body {
+    background-image: url(file:///home/antoine/Projet/Integration%20finale/integration_maquette_finale/bg_light.png);
+    position: absolute; 
+}
   /* fin carousel
   Début button */
 
 
  /* Font */
-h3 {
+ .text-uppercase {
+     font-family: 'anirb';
+ }
+ .blockquote {
+    font-family: 'anirb';
+}
+.blockquote-footer {
+    font-family: 'anirb';
+}
+h4 {
     font-family: 'anirm'!important;
 }
 span {
     font-family: 'tnganb'!important;
     color: orange;
 }
+.text-into-gand{
+    font-family: 'anirb';
+    border:1px solid gray;
+    
+}
+.text-into-ara{
+    font-family: 'anirb'
+}
 
+.numbers {
+    text-decoration: darkorange;
+    font-family: 'anirb'!important;
+
+}
+.died{
+    text-decoration-color: darkorange;
+    font-family: 'anirb'!important;
+    text-decoration-line: line-through;
+}
 .pill-title {
     text-align: center;
-    margin-top: 0.6em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
+
 .badge {
     font-family: 'anirb'!important;
-    text-decoration-color: darkorange;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 130% !important;
 }
+a.badge:visited {
+    color: grey;
+}
+
 .pill-center {
     text-align: center;
+    margin-bottom: 2em;
+}
+a.badge:hover {
+    text-decoration-color: darkorange;
 }
 /*  Fin font
 début card*/
+p.card-text {
+    color: white;
+    font-family: 'partybusiness'!important;
+    font-size: 180%;
+}
 .card-gand {
-    background-image: url(file:///home/antoine/Documents/integration_maquette_finale/gandalf.png);
+    background-image: url(file:///home/antoine/Projet/Integration%20finale/integration_maquette_finale/gandalf.png);
     width: 18rem;
     height: 22rem;
-    opacity: 0.4;
+    opacity: 0.5;
+    margin: 0 auto;
+    display: block;
 }
 .card-gand:hover {
-    background-image: url(file:///home/antoine/Documents/integration_maquette_finale/gandalf.png);
+    background-image: url(file:///home/antoine/Projet/Integration%20finale/integration_maquette_finale/gandalf.png);
     opacity: 0.9;
 }
 .card-ara {
-    background-image: url(file:///home/antoine/Documents/integration_maquette_finale/aragorn.png);
+    background-image: url(file:///home/antoine/Projet/Integration%20finale/integration_maquette_finale/aragorn.png);
     width: 18rem;
     height: 22rem;
     opacity: 0.4;
 }
 .card-ara:hover {
-    background-image: url(file:///home/antoine/Documents/integration_maquette_finale/aragorn.png);
+    background-image: url(file:///home/antoine/Projet/Integration%20finale/integration_maquette_finale/aragorn.png);
     opacity: 1;
 }
 .card-gim {
-    background-image: url(file:///home/antoine/Documents/integration_maquette_finale/gimli.png);
+    background-image: url(file:///home/antoine/Projet/Integration%20finale/integration_maquette_finale/gimli.png);
     width: 18rem;
     height: 22rem;
     opacity: 0.5;
 }
 .card-gim:hover {
-    background-image: url(file:///home/antoine/Documents/integration_maquette_finale/gimli.png);
+    background-image: url(file:///home/antoine/Projet/Integration%20finale/integration_maquette_finale/gimli.png);
     opacity: 1;
+}
+.black {
+    background-color: black;
 }
