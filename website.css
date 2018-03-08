@@ -52,7 +52,7 @@
     }   
   }
 body {
-    background-image: url(file:///home/antoine/Projet/Integration%20finale/integration_maquette_finale/bg_light.png);
+    background-image: url(https://github.com/AntoinePoree/Int-gration-finale/blob/master/integration_maquette_finale/bg_light.png?raw=true);
     position: absolute; 
 }
   /* fin carousel
@@ -151,13 +151,13 @@ a.badge:hover {
 }
 
 .img1 {
-    background-image: url("integration_maquette_finale/gandalf.png");
+    background-image: url("https://github.com/AntoinePoree/Int-gration-finale/blob/master/integration_maquette_finale/gandalf.png?raw=true");
 }
 .img2 {
-    background-image: url("integration_maquette_finale/aragorn.png");
+    background-image: url("https://github.com/AntoinePoree/Int-gration-finale/blob/master/integration_maquette_finale/aragorn.png?raw=true");
 }
 .img3 {
-    background-image: url("integration_maquette_finale/gimli.png");
+    background-image: url("https://github.com/AntoinePoree/Int-gration-finale/blob/master/integration_maquette_finale/gimli.png?raw=true");
 }
 
 .reward{
